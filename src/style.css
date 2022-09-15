@@ -14,7 +14,7 @@ html {
   --imp-text-color: #F35D62;
 }
 
-.purple {
+.orange {
   color: var(--imp-text-color) !important;
 }
 
@@ -346,7 +346,6 @@ button:focus {
   justify-content: center !important;
   padding-top: 15px !important;
   display: inline-block !important;
-  position: relative !important;
   padding-inline-start: 0 !important;
 }
 
@@ -446,7 +445,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -544,7 +543,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
