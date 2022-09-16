@@ -13,7 +13,10 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
-      <Container>
+      <Container style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+            }}>
         <h1 className="project-heading">
           My Recent <strong className="orange">Works </strong>
         </h1>
