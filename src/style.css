@@ -14,6 +14,21 @@ html {
   --imp-text-color: #F35D62;
 }
 
+.astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
+.font16 {
+  font-size: 16px;
+}
+.font30 {
+  font-size: 30px;
+}
+
 .orange {
   color: var(--imp-text-color) !important;
 }
@@ -312,12 +327,17 @@ button:focus {
   padding-top: 9em !important;
 }
 
-@media (max-width: 767px) {
+.myHomeAvatar {
+  margin-top: 100px;
+  padding-right: 80px;
+}
+
+/* @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
-}
+} */
 
 .home-about-section {
   position: relative;
@@ -583,6 +603,7 @@ button:focus {
 }
 
 .quote-card-view {
+  text-align: justify;
   border: none !important;
   color: white !important;
   background-color: transparent !important;
@@ -591,7 +612,6 @@ button:focus {
 .about-activity {
   list-style: none !important;
   text-align: left !important;
-  padding-left: 1px !important;
 }
 
 @media (max-width: 767px) {

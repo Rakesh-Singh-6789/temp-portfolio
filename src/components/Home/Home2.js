@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Nav } from "react-bootstrap";
 import myImg from "../../Assets/avatar1.png";
 import Tilt from "react-parallax-tilt";
 import {
@@ -8,48 +8,52 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 function Home2() {
+  const navigate = useNavigate();
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="orange"> INTRODUCE </span> MYSELF
+              Let me <span className="orange"> quickly introduce </span> myself.
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="orange"> C++, Javascript and Python. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="orange">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="orange">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="orange">Node.js</b> and
-              <i>
-                <b className="orange">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="orange"> React.js and Next.js</b>
-              </i>
+              I am pursuing Master of Science in Computer Science (Aug 2022-May 2024) at &nbsp;
+              <a target="_blank" className="orange" href="http://www.fullerton.edu/rankings/">
+                California State University, Fullerton USA. 
+              </a>
+
+              <br/>
+              <br/> 
+
+              I am an <span className="orange">experienced</span> web application developer with <span className="orange">2 years</span> of experience developing a complex and sophisticated A/B Testing web application&nbsp;
+              <a className="orange" target={"_blank"} href="https://app.vwo.com/">
+                (VWO) 
+              </a> for&nbsp;
+              <a className="orange" target={"_blank"} href="https://wingify.com/">
+                Wingify Software Pvt. Ltd.
+              </a>
+              <br/>
+              <br/> 
+
+              Prior to that, I completed my Bachelor of Technology in Computer Science and Engineering with a cumulative GPA of
+              <span className="orange"> 9.11/10 = 3.97/4 </span>
+              from&nbsp;
+              <a target={"_blank"} className="orange" href="http://www.ipu.ac.in/">Guru Gobind Singh Indraprastha University</a>, New Delhi, India.
+              {/* <NavLink className="">
+                Know more in details. 
+              </NavLink> */}
+              <br/> 
+              <br/> 
+              Helping in making this world 🌎 a better place.
+              <br/>  
+              <br/>  
+              <span className="astext orange underline" onClick={()=>{
+                navigate('/about');
+              }}> <b><u>More about me...!</u></b></span>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

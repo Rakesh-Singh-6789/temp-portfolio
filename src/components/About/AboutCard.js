@@ -1,38 +1,56 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { useNavigate } from "react-router-dom";
 
 function AboutCard() {
+  const navigate = useNavigate();
   return (
     <Card className="quote-card-view">
-      <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="orange">RS </span>
-            from <span className="orange"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
+          <span style={{ textAlign: "justify" }}>
+            <span>
+            <ul class="list-unstyled">
+                <li>Hello, Myself <span className="orange">Rakesh Singh </span>
+                    from <span className="orange"> Fullerton, California, USA.</span>
+                    <br />As a Master’s in Computer Science pursuing student with <span className="orange">2</span> years of full-time work experience as a <span className="orange">Software Engineer-I/II</span>. I'm elated to share my experience with you.
+                    <br />
+                    <ul>
+                        <li> I worked previously with <a className="orange" target={"_blank"} href="https://wingify.com/">
+              Wingify Software Pvt. Ltd.</a>; I worked as Software Engineer I/II in the Application Delivery team. 
+              As part of the application delivery team, I got a chance to solve technical problems of immense complexity and scope. 
+              I built reusable and business logic components at the front-end for <a className="orange" target={"_blank"} href="https://app.vwo.com/">(VWO)</a> using the <span className="orange">AngularJs framework</span>, 
+              which reduced the application response time by 38%.</li>
+                        <li>
+              I built highly scalable features and helped improve <a className="orange" target={"_blank"} href="https://app.vwo.com/">VWO's</a> user experience. My work greatly influences how the users/customers perceive our product.</li>
+              <li>
+                  I also voluntarily initiated and took full ownership (including writing design, tech docs, and implementation) of phase 1 of an automated portal for mundane tasks for internal developers using the ReactJs library, which increased the internal developers' productivity by twice (100%).
+                </li>
+                <li>
 
-          <p style={{ color: "#F35D62" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-        </blockquote>
-      </Card.Body>
+                At Wingify, I often collaborated with inter-teams and helped them with their AngularJs and JavaScript-related issues, which helped them to achieve their sprint targets easily. 
+                </li>
+                <li>
+              I also mentored four interns and three full-time software engineers, which enhanced their learning and understanding of the application.
+
+                </li>
+                
+                <li>
+              As I grow in my career, applying my skills to help others and make an impact on the world becomes more important.
+
+                </li>
+                    </ul>
+                </li>
+                
+                <li>
+                  <br/>
+                    Please find my <span className="astext orange" onClick={()=>{navigate('/resume')}}><b><u>resume</u></b></span> in the navbar for my Android Application Development Intern, projects and achievements.
+                </li>
+              </ul>
+            </span>
+            <span className="orange">"Thank you :)"</span>
+          </span>
+        </blockquote> 
     </Card>
   );
 }

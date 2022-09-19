@@ -4,6 +4,15 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import myImg from "../../Assets/avatar1.png";
+import Tilt from "react-parallax-tilt";
+
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
   return (
@@ -12,22 +21,26 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+            <Col md={5} className="home-header">
+              <h1 style={{ paddingBottom: 15 }} className="">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
-
-              <h1 className="heading-name">
-                Myself
-                <strong className="main-name"> Rakesh Singh </strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
+                <h1 className="">
+                  Myself
+                  <strong className="main-name"> Rakesh Singh </strong>
+                </h1>
+              <div style={{ paddingTop: 50, textAlign: "left" }}>
                 <Type />
               </div>
+            </Col>
+
+            <Col md={2} style={{ marginTop: '100px', paddingRight: '80px'}}>
+              <Tilt>
+                <img src={myImg} className="img-fluid" alt="avatar" />
+              </Tilt>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
