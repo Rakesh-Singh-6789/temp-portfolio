@@ -11,6 +11,7 @@ import {
   SiJira,
   SiWindows,
   SiAtlassian,
+  SiSentry,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -19,6 +20,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
         <span className="font30">VsCode</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSentry />
+        <span className="font30">Sentry.io</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
