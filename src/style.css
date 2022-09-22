@@ -480,6 +480,12 @@ button:focus {
   height: auto !important;
 }
 
+.project-card-footer {
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
+}
+
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
