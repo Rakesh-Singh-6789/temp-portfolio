@@ -10,7 +10,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <span style={{ textAlign: "justify" }}>
             <span>
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
                 <li>Hello, Myself <span className="orange">Rakesh Singh </span>
                     from <span className="orange"> Fullerton, California, USA.</span>
                     <br />As a Master’s in Computer Science pursuing student with <span className="orange">2</span> years of full-time work experience as a <span className="orange">Software Engineer-I/II</span>. I'm elated to share my experience with you.
