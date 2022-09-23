@@ -44,7 +44,10 @@ function AboutCard() {
                 
                 <li>
                   <br/>
-                    Please find my <span className="astext orange" onClick={()=>{navigate('/resume')}}><b><u>resume</u></b></span> in the navbar for my Android Application Development Intern, projects and achievements.
+                    Please find my <span className="astext orange" onClick={()=>{navigate('/resume')}}><b>
+                    <u>resume</u></b></span> in the navbar for my Android Application Development Intern, <span className="astext orange" onClick={()=>{navigate('/projects')}}><b>
+                    <u>projects</u></b></span> and <span className="astext orange" onClick={()=>{navigate('/certis')}}><b>
+                    <u>achievements and certifications</u></b></span>.
                 </li>
               </ul>
             </span>
