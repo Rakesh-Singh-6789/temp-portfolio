@@ -15,7 +15,7 @@ function ProjectCards(props) {
           {props.readmeLink ? <span> <a rel="noreferrer" target={"_blank"} href={props.readmeLink} className="orange"> Learn more.. </a></span> : ""}
           {props.PS ? <><br/><span>{props.PS}</span></> : ""}
         </Card.Text>
-       {props.ghLink ? <div className="project-card-footer">
+       {props.ghLink ? <div>
         <Button variant="primary" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp;GitHub
           </Button>
