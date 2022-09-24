@@ -31,7 +31,6 @@ function ResumeNew() {
 
         <Row className="resume resumeView" style={{margin: "auto"}}>
           <img src={image} loading={"lazy"}></img>
-          {/* <iframe src="https://drive.google.com/file/d/1uJIITAbQlBScwP6t37oQgD1qqdRk9SmO/preview" style={{border: 0, height: "1200px", width: "800px", overflow: "auto"}} scrolling="yes"></iframe> */}
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
