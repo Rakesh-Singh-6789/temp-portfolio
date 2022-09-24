@@ -1,16 +1,16 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
-import googleUdacity from "../../Assets/../Assets/certis/GoogleUdacity.png";
-import awsML from "../../Assets/../Assets/certis/awsML.png";
-import CCA1 from "../../Assets/../Assets/certis/CCA1.png";
-import CCA2 from "../../Assets/../Assets/certis/CCA2.png";
-import CodeJam from "../../Assets/../Assets/certis/CodeJam.png";
-import codingBlocks from "../../Assets/../Assets/certis/codingBlocks.png";
-import EcellMsit from "../../Assets/../Assets/certis/EcellMsit.png";
-import IEO from "../../Assets/../Assets/certis/IEO.png";
-import internship from "../../Assets/../Assets/certis/internship.png";
-import Udemy from "../../Assets/../Assets/certis/Udemy.png";
-import kickStart from "../../Assets/../Assets/certis/kickStart.png";
+import googleUdacity from "../../Assets/../Assets/certis/GoogleUdacity.webp";
+import awsML from "../../Assets/../Assets/certis/awsML.webp";
+import CCA1 from "../../Assets/../Assets/certis/CCA1.webp";
+import CCA2 from "../../Assets/../Assets/certis/CCA2.webp";
+import CodeJam from "../../Assets/../Assets/certis/CodeJam.webp";
+import codingBlocks from "../../Assets/../Assets/certis/codingBlocks.webp";
+import EcellMsit from "../../Assets/../Assets/certis/EcellMsit.webp";
+import IEO from "../../Assets/../Assets/certis/IEO.webp";
+import internship from "../../Assets/../Assets/certis/internship.webp";
+import Udemy from "../../Assets/../Assets/certis/Udemy.webp";
+import kickStart from "../../Assets/../Assets/certis/kickStart.webp";
 
 const certificationPaths = [
     {
