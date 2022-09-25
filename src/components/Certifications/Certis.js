@@ -64,9 +64,9 @@ const certificationPaths = [
         description: "Coding Blocks JAVA Data Structure Course Completion Certificate."
     },
     {
-        name: "Google-udacity",
+        name: "E-Cell MSIT Member",
         path: EcellMsit,
-        description: " E-Cell Society active member (2017-2018) certificate."
+        description: "E-Cell Society active member (2017-2018) certificate."
     }
 ];
 
