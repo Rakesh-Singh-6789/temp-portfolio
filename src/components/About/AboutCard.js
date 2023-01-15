@@ -51,7 +51,7 @@ function AboutCard() {
                 </li>
               </ul>
             </span>
-            <span className="orange">"Thank you :)"</span>
+            <span className="orange">Thank you :)</span>
           </span>
         </blockquote> 
     </Card>
