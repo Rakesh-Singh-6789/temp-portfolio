@@ -4,7 +4,8 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import myImg from "../../Assets/avatar1.png";
+//import myImg from "../../Assets/avatar1.png";
+import myImg from "../../Assets/casual.jpg";
 import Tilt from "react-parallax-tilt";
 
 import {
@@ -13,6 +14,10 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+
+export const avatarImg = {
+  borderRadius : '50%'
+}
 
 function Home() {
   return (
@@ -37,14 +42,12 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={2} style={{ marginTop: '100px', paddingRight: '80px'}}>
-              <Tilt>
-                <img src={myImg} className="img-fluid" alt="avatar" />
-              </Tilt>
+            <Col md={3} style={{ marginTop: '100px', paddingRight: '80px'}}>
+                <img src={myImg} className="img-fluid" style={avatarImg} alt="avatar" />
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
+            <Col md={4} style={{ paddingBottom: 20 }}>
+            <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
@@ -54,7 +57,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+
     </section>
   );
 }

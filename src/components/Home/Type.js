@@ -6,15 +6,15 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Web Application Developer.",
-          "Master of Science in Computer Science pursuing student at Cal State Fullerton, California USA.",
-          "Front-End Web Developer.",
+          "A Software Engineer with 4 years of experience.",
+          "Graduated with a Master of Science in Computer Science",
+          "Front-End/FullStack Web Developer.",
           "Android Application Developer."
         ],
         autoStart: true,
         loop: true,
-        delay: 50,
-        deleteSpeed: 20,
+        delay: 30,
+        deleteSpeed: 10,
       }}
     />
   );

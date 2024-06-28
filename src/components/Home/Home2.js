@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import myImg from "../../Assets/avatar1.png";
 import Tilt from "react-parallax-tilt";
+import laptopImg from "../../Assets/about.svg";
+import myImg2 from "../../Assets/casual2.jpg";
+
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -9,56 +12,47 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { avatarImg } from "./Home";
+  /* 
+          
+          Let meI am Rakesh, a Software Engineer, Graduated in Master of Science, in Computer Science.
 
+Having spent almost 4 years honing my skills at a SaaS company (B2B),  and an education institution. I bring a robust background in web application development. Proficient in modern web application development using Node.js, JavaScript, TypeScript, Java, React and AngularJs, Node.js, HTML, and CSS and more.
+
+I'd love to discuss how my experience aligns with the needs at [].
+           */
 function Home2() {
   const navigate = useNavigate();
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
+
+        
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               Let me <span className="orange"> quickly introduce </span> myself.
             </h1>
             <p className="home-about-body">
-              I am pursuing Master of Science in Computer Science (Aug 2022-May 2024) at &nbsp;
-              <a target="_blank" className="orange" href="http://www.fullerton.edu/rankings/">
-                California State University, Fullerton USA. 
-              </a>
+            A Software Engineer, Graduated with a Master of Science, in Computer Science.
+            <br></br>
 
-              <br/>
-              <br/> 
-
-              I am an <span className="orange">experienced</span> web application developer with <span className="orange">2 years</span> of experience developing a complex and sophisticated A/B Testing web application&nbsp;
+            I bring a robust <span className="orange">4 years</span> of experience developing complex and sophisticated mobile and web applications like A/B Testing Tool &nbsp;
               <a className="orange" target={"_blank"} href="https://app.vwo.com/">
-                (VWO) 
-              </a> for&nbsp;
-              <a className="orange" target={"_blank"} href="https://wingify.com/">
-                Wingify Software Pvt. Ltd.
-              </a>
-              <br/>
-              <br/> 
-
-              Prior to that, I completed my Bachelor of Technology in Computer Science and Engineering with a cumulative GPA of
-              <span className="orange"> 9.11/10 = 3.97/4 </span>
-              from&nbsp;
-              <a target={"_blank"} className="orange" href="http://www.ipu.ac.in/">Guru Gobind Singh Indraprastha University</a>, New Delhi, India.
-              {/* <NavLink className="">
-                Know more in details. 
-              </NavLink> */}
+                (VWO). 
+              </a> 
+            <br></br>
+            I am proficient in modern web-dev frameworks using JavaScript, TypeScript, Node.js, Java, React, AngularJS, HTML, CSS, and more. My experience includes building high-quality systems, collaborating with cross-functional teams, and delivering features to production efficiently.
+            
               <br/> 
               <br/> 
-              Helping in making this world 🌎 a better place.
-              <br/>  
-              <br/>  
-              <span className="astext orange underline" onClick={()=>{
-                navigate('/about');
-              }}> <b><u>More about me...!</u></b></span>
+               <span className="orange">TDLR;</span> A Software Engineer with 4 YoE and <span className="orange">"make it happen"</span> mindset.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={3} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg2} className="img-fluid" style={{...avatarImg, maxWidth: '75%'}} alt="avatar" />
+              <img src={laptopImg} alt="about" style={{marginTop: '20px'}} className="img-fluid" />
             </Tilt>
           </Col>
         </Row>

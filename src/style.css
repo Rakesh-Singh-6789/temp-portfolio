@@ -89,7 +89,7 @@ button:focus {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: F35D62;
+  background: #F35D62;
   border-radius: 12px;
 }
 
@@ -347,8 +347,8 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-bottom: 50px !important;
+  padding-top: 50px !important;
 }
 
 .home-about-description {
