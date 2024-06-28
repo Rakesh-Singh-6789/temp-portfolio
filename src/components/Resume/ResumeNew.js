@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Rakesh_Resume.pdf";
 import image from "../../Assets/../Assets/Rakesh_Resume.png"
 import { AiOutlineDownload } from "react-icons/ai";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const gDrivelink = 'https://drive.google.com/file/d/1vhh3PBJshs1SzXCNBREC2edGVCMkru2k/view?usp=sharing';
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -20,12 +20,12 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={gDrivelink}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "25%" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download Resume
+            &nbsp;Download Resume: Google Drive Link
           </Button>
         </Row>
 
@@ -36,12 +36,12 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={gDrivelink}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "25%" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download Resume
+            &nbsp;Download Resume: Google Drive Link
           </Button>
         </Row>
       </Container>

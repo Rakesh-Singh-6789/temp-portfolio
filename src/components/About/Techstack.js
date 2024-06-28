@@ -13,11 +13,16 @@ import {
   DiHtml5,
   DiCss3,
 } from "react-icons/di";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiGraphql, SiMysql, SiSqlite, SiPostgresql } from "react-icons/si";
+import { MdReadMore } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
+import { RiNextjsLine, RiNodejsFill  } from "react-icons/ri";
 
 function Techstack() {
+  const navigate = useNavigate();
+
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
         <span className="font16">JavaScript</span>
@@ -46,7 +51,7 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
-        <span className="font16">JAVA</span>
+        <span className="font16">Java</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiAndroid/>
@@ -55,6 +60,35 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
         <span className="font16">Git</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <RiNextjsLine />
+        <span className="font16">Next.js</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGraphql />
+        <span className="font16">GraphQL</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+        <span className="font16"></span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSqlite />
+        <span className="font16">SQLite</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+        <span className="font16">PostgreSQL</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <RiNodejsFill />
+        <span className="font16">Node.js</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" 
+       onClick={()=>navigate("/resume")}>
+        <MdReadMore />
+        <span className="font16">More in resume</span>
       </Col>
     </Row>
   );
