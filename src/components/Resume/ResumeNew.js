@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import image from "../../Assets/../Assets/Rakesh_Resume.png"
-import { AiOutlineDownload } from "react-icons/ai";
+import { FiExternalLink } from "react-icons/fi";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -24,8 +24,9 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "25%" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download Resume: Google Drive Link
+           
+            &nbsp;Download Resume: Google Drive Link&nbsp;
+            <FiExternalLink style={{marginTop: '-5px'}}/>
           </Button>
         </Row>
 
@@ -40,8 +41,8 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "25%" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download Resume: Google Drive Link
+            &nbsp;Download Resume: Google Drive Link&nbsp;
+            <FiExternalLink style={{marginTop: '-5px'}}/>
           </Button>
         </Row>
       </Container>

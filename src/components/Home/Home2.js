@@ -13,6 +13,9 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { avatarImg } from "./Home";
+import { FiExternalLink } from "react-icons/fi";
+
+
   /* 
           
           Let meI am Rakesh, a Software Engineer, Graduated in Master of Science, in Computer Science.
@@ -27,8 +30,6 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-
-        
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               Let me <span className="orange"> quickly introduce </span> myself.
@@ -39,7 +40,7 @@ function Home2() {
 
             I bring a robust <span className="orange">4 years</span> of experience developing complex and sophisticated mobile and web applications like A/B Testing Tool &nbsp;
               <a className="orange" target={"_blank"} href="https://app.vwo.com/">
-                (VWO). 
+                (VWO) <FiExternalLink />
               </a> 
             <br></br>
             I am proficient in modern web-dev frameworks using JavaScript, TypeScript, Node.js, Java, React, AngularJS, HTML, CSS, and more. My experience includes building high-quality systems, collaborating with cross-functional teams, and delivering features to production efficiently.
