@@ -16,14 +16,6 @@ import { avatarImg } from "./Home";
 import { FiExternalLink } from "react-icons/fi";
 
 
-  /* 
-          
-          Let meI am Rakesh, a Software Engineer, Graduated in Master of Science, in Computer Science.
-
-Having spent almost 4 years honing my skills at a SaaS company (B2B),  and an education institution. I bring a robust background in web application development. Proficient in modern web application development using Node.js, JavaScript, TypeScript, Java, React and AngularJs, Node.js, HTML, and CSS and more.
-
-I'd love to discuss how my experience aligns with the needs at [].
-           */
 function Home2() {
   const navigate = useNavigate();
   return (
@@ -38,16 +30,16 @@ function Home2() {
             A Software Engineer, Graduated with a Master of Science, in Computer Science.
             <br></br>
 
-            I bring a robust <span className="orange">4 years</span> of experience developing complex and sophisticated mobile and web applications like A/B Testing Tool &nbsp;
+            I bring a <span className="orange">robust experience</span> developing complex and sophisticated mobile and web applications like A/B Testing Tool &nbsp;
               <a className="orange" target={"_blank"} href="https://app.vwo.com/">
                 (VWO) <FiExternalLink />
               </a> 
             <br></br>
-            I am proficient in modern web-dev frameworks using JavaScript, TypeScript, Node.js, Java, React, AngularJS, HTML, CSS, and more. My experience includes building high-quality systems, collaborating with cross-functional teams, and delivering features to production efficiently.
+            I am proficient in <span className="orange">modern web-dev frameworks</span> using JavaScript, TypeScript, Node.js, Java, React, AngularJS, HTML, CSS, and more. My experience includes building high-quality systems, collaborating with cross-functional teams, and delivering features to production efficiently.
             
               <br/> 
               <br/> 
-               <span className="orange">TDLR;</span> A Software Engineer with 4 YoE and <span className="orange">"make it happen"</span> mindset.
+               <span className="orange">TDLR;</span> A Software Engineer with <span className="orange">"make it happen"</span> mindset.
             </p>
           </Col>
           <Col md={3} className="myAvtar">

@@ -20,7 +20,7 @@ function Footer() {
         <ul className="home-about-social-links">
         <li className="social-icons">
             <a
-              href="https://www.linkedin.com/in/rakesh-singh-616b7515a/"
+              href="https://www.linkedin.com/in/rakesh-r-singh/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -30,7 +30,7 @@ function Footer() {
           </li>
           <li className="social-icons">
             <a
-              href="mailto:rakeshsr6789@gmail.com"
+              href="mailto:worksinghrakesh@gmail.com"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"

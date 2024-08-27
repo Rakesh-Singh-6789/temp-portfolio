@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import image from "../../Assets/../Assets/Rakesh_Resume.png"
+import image from "../../Assets/../Assets/error.png"
 import { FiExternalLink } from "react-icons/fi";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
-  const gDrivelink = 'https://drive.google.com/file/d/1vhh3PBJshs1SzXCNBREC2edGVCMkru2k/view?usp=sharing';
+  const gDrivelink = 'https://drive.google.com/file/d/1adNhepCoErgfkLLiddBmXP6JMT3wzdUk/view?usp=sharing';
 
   useEffect(() => {
     setWidth(window.innerWidth);

@@ -13,9 +13,9 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
           {props.readmeLink ? <span> <a rel="noreferrer" target={"_blank"} href={props.readmeLink} className="orange"> Learn more.. </a></span> : ""}
-          {props.PS ? <><br/><span>{props.PS}</span></> : ""}
+          {props.PS ? <><br/><span className="orange">{props.PS}</span></> : ""}
         </Card.Text>
-       {props.ghLink ? <div>
+       {props.ghLink ? <div className="demo-links">
         <Button variant="primary" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp;GitHub
           </Button>
