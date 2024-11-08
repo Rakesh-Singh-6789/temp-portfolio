@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import bulletin from "../../Assets/Projects/BulletinProjectFrame.png";
 import moviePedia from "../../Assets/Projects/MoviePediaProjectFrame.png";
 import videoPlatform from "../../Assets/Projects/VideoPlatform.png";
+import decenTube from "../../Assets/Projects/DecenTube.png";
+import susSystem from "../../Assets/Projects/SusSystem.png";
 
 function Projects() {
   return (
@@ -23,7 +25,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={moviePedia}
+              imgPath={susSystem}
               title="Smart Intrusion/Suspect Detection"
               description="The project developed a cloud-based, real-time facial recognition system for smart intrusion and suspect detection. Utilising React, Node.js, and AWS Rekognition APIs, detection accuracy improved by 20%. Hosted on AWS EC2 with 99.9% uptime, the system also featured IoT integration with a Raspberry Pi 3 for real-time photo and video capture."
               ghLink="https://github.com/Rakesh-Singh-6789/Smart-Intrusion-Suspect-Detection-System"
@@ -32,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={videoPlatform}
+              imgPath={decenTube}
               title="Decentralized YouTube"
               description="This project created a decentralized, blockchain-based video-sharing app with a focus on user data control, censorship resistance, and transparency. Core features were built using Truffle, Solidity, and IPFS for secure content management. The UI was designed in Figma and implemented with HTML5/CSS3 and Next.js for an engaging user experience." 
               ghLink="https://github.com/Rakesh-Singh-6789/web3-youtube"
